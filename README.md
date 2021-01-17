@@ -1,6 +1,10 @@
 # Front
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
+Este projeto foi criado com angular 11 para consumo de apis rest do projeto spring disponível aqui, clone este repositótio 
+
+Para executar este projeto rode os seguintes comandos 
+
+Com angular instalado em sua máquina rode o camando ng-serve --open
 
 ## Development server
 
