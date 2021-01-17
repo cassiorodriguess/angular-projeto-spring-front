@@ -1,4 +1,4 @@
-# Front
+# Consumo api rest com angular 11
 
 Este projeto foi criado com angular 11 para consumo de apis rest do projeto spring disponível aqui, clone este repositótio 
 
