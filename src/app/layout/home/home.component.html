@@ -1,0 +1,44 @@
+<header>
+
+  <!--   <nav class="nav-header navbar navbar-expand-lg">
+      <a class="navbar-brand" [routerLink] = "['/']">Home</a>
+    </nav> -->
+
+    <nav class="menu">
+      <ul class="active">
+        <li [routerLink] = "['/']" class="current-item"><a href="#">Home</a></li>
+        <li><a  [routerLink] = "['/categorias']" href="#">Categorias</a></li>
+        <li><a  [routerLink] = "['/new']" href="#">Novo produto</a></li>
+     </ul>
+    
+      <a class="toggle-nav" href="#">&#9776;</a>
+    
+    </nav>
+  
+  </header>
+  
+  <section>
+  
+      <main class="container principal">
+
+    
+   <!--  <div class="card card-centro">
+          <div class="card-body">
+    
+            <h2 class="card-title">Cardápio</h2>
+            <h6 class="card-subtitle mb-3 text-muted" style="margin-left: 2px;">Bom apetite</h6>
+          
+
+          </div>
+
+        </div>-->
+  
+        <router-outlet></router-outlet>
+  
+      </main>
+  
+  </section>
+  
+
+  
+  

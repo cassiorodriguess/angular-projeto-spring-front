@@ -1,0 +1,14 @@
+
+<br><br>
+<div class="card">
+  <br>
+  <h2 class="card-text text-center"> <strong>Nossas categorias  </strong>  </h2>
+  <br>
+  <div class="card-body">
+
+    <div class="list-group" *ngFor="let categoria of categorias">
+      <a  [routerLink] = "['./categoria/' + categoria.id]"href="#"  
+      class="list-group-item list-group-item-action">{{categoria.categoria}}</a>
+    </div>
+  </div>
+</div>

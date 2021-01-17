@@ -1,0 +1,29 @@
+
+.login{
+   border:2px solid #eeeeee;
+   border-radius: 20px;; 
+   padding:20px; 
+   padding-bottom: 35px;
+   background-color: rgb(12, 11, 11);
+}
+.part-titulo{
+   background-color: rgb(31, 30, 30); 
+   border-left:6px solid orange;
+}
+.link{
+    color:orange;
+    float: right;
+    margin-top: 8px;
+}
+.button-submit{
+    color:#fff;
+    background-color: #424242;
+}
+.h2-login{
+    color:#fff;
+    padding: 20px;
+}
+label{
+    color: #fff;
+}
+

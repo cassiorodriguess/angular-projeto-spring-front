@@ -1,0 +1,37 @@
+
+<div class="part-titulo">
+    <h5 class="h2-login">Adicionar um produto</h5>
+</div>
+<br>
+<form class="login" (ngSubmit)="onSubmit()" #form="ngForm">
+    <div class="form-group">
+    <label for="">Titulo</label>
+        <input type="text" class="form-control" name="titulo" [(ngModel)]="produto.titulo" required>
+     </div>   
+   
+    <div class="form-group">
+ 
+    <label for="">Descrição</label>
+    <input type="text" class="form-control" name="descricao" [(ngModel)]="produto.descricao" required>
+    </div>   
+    
+    <div class="form-group">
+ 
+        <label for="">Quantidade</label>
+        <input type="text" class="form-control" name="quantidade" [(ngModel)]="produto.quantidade" required>
+     </div>   
+        
+    
+    <div class="form-group">
+    
+     <label for="">Preço</label>
+    
+    <input type="text" class="form-control" name="preco" [(ngModel)]="produto.preco" required>
+    
+    <br><br>
+     
+    <div class="form-group">
+        <button class="btn btn-block button-submit" type="submit" [disabled]=form.form.invalid>Salvar</button>
+    </div>
+</div>
+</form>

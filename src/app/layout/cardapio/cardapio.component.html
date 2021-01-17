@@ -1,0 +1,22 @@
+<!-- <ul *ngFor="let item of cardapio">
+    <li>{{item.id}} - {{item.titulo}}</li>
+</ul> -->
+
+
+<div class="f-overflow-list">
+
+<div class="list-group" *ngFor="let item of cardapio">
+    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{item.titulo}}</h5>
+        <small class="text-muted"><a [routerLink] = "['./edit/' + item.id]" href="#">
+          <i style="color:red" class="fas fa-edit"> </i> </a> 
+            <button (click)="remove(item.id)" style="border:0;background:0;">
+              <i style="color:red" class="fas fa-minus-circle"></i> </button> </small>
+      </div>
+      <p class="mb-1">{{item.descricao}}</p>
+    </a>
+
+  </div>
+
+</div>

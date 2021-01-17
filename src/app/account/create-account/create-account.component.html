@@ -1,0 +1,26 @@
+
+<div class="part-titulo">
+    <h5 class="h2-login">Criar uma conta</h5>
+</div>
+<br>
+<form class="login" (ngSubmit)="onSubmit()" #form="ngForm">
+    <div class="form-group">
+    <label for="">Nome</label>
+        <input type="text" id="email" class="form-control" name="email" [(ngModel)]="account.email" required>
+     </div>   
+   
+    <div class="form-group">
+ 
+    <label for="">Email</label>
+    <input type="text" id="email" class="form-control" name="email" [(ngModel)]="account.email" required>
+    </div>   
+    <div class="form-group">
+    <label for="">Senha</label>
+    <input type="password" id="password"  class="form-control" name="password" [(ngModel)]="account.password" required>
+    <br><br>
+     
+    <div class="form-group">
+        <button class="btn btn-block button-submit" type="submit" [disabled]=form.form.invalid>Ingressar</button>
+    </div>
+</div>
+</form>
